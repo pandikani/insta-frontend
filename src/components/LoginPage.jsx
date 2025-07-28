@@ -10,7 +10,7 @@ function LoginPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await axios.post("https://your-backend-url/api/login/", {
+    await axios.post("https://loginserver-5.onrender.com/api/login/", {
       username,
       password,
     });
